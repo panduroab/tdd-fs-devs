@@ -31,7 +31,7 @@ docker-compose --version
 
 ## Authors
 
-* **Abraham Panduro** - *Full-Stack Developer and Team Lead at [iTexico](https://itexico.com/)* -
+* **Abraham Panduro** - Full-Stack Developer and Team Lead at [iTexico](https://itexico.com/) -
 
 ## License
 
@@ -39,4 +39,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* iTexico <Main> is a space to share knowledge, learn new technologies, improve your skills, build your community and a great opportunity for technology lovers to know all about iTexico.
+* [iTexico Main](http://main.itexico.com/) is a space to share knowledge, learn new technologies, improve your skills, build your community and a great opportunity for technology lovers to know all about iTexico.
