@@ -1,0 +1,11 @@
+{
+  "name": "tdd-fs-devs",
+  "version": "0.0.1",
+  "description": "Test Driven Development for Full Stack Developers practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Abraham Panduro, @panduroab",
+  "license": "MIT"
+}
