@@ -1,5 +1,6 @@
 const { port } = require('./consts');
-const app = require('../src/server')();
+const deps = require('../src/dependencies')();
+const app = require('../src/server')(deps);
 
 describe('Application', () => {
     it('should run an app instance', done => {

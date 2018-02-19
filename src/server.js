@@ -3,11 +3,12 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const app = express();
 
-module.exports = () => {
+module.exports = dependencies => {
     app.use(logger('dev'));
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: false }));
 
+    dependencies.setupRoutes(app);
     app.get('/', (req, res, next) => {
         res.send(`this is real!`)
     });
